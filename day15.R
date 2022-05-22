@@ -151,3 +151,5 @@ for(col_i in c('YlGn','RdPu', 'PuRd', 'BrBG', 'RdBu', 'RdYlBu', 'Set3', 'Set1'))
   print(col_i)
   print(brewer.pal(n = 5, name = col_i))
 }
+
+#
