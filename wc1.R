@@ -40,7 +40,6 @@ word_table2 <- as.data.frame(table(undata2))
 install.packages("wordcloud")
 library(wordcloud)
 
-
 windowsFonts(lett=windowsFont("휴먼옛체"))
 wordcloud(word_table2$undata2, word_table2$Freq, family="lett",
 min.freq = 2, 
