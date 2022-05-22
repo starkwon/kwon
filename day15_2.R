@@ -9,7 +9,6 @@ icon.fa <- makeAwesomeIcon(icon = "flag", markerColor = "red",
                            iconColor = "black")
 icon.ion <- makeAwesomeIcon(icon = "home", markerColor = "green")
 
-
 # Marker + Label
 leaflet() %>% addTiles() %>%
   addAwesomeMarkers(
